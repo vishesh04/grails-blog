@@ -28,7 +28,7 @@
                         org.apache.commons.io.IOUtils.copy(connection.getInputStream(), response.outputStream)
                     </pre><br>
                     Controller method to proxy the data and serve it on our page:<br>
-                    <pre class="brush: java;"ava>
+                    <pre class="brush: java;">
                         private static HttpTransport httpTransport = new NetHttpTransport()
                         private static JacksonFactory jsonFactory = new JacksonFactory();
 

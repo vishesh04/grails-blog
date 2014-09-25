@@ -27,8 +27,12 @@
 
     <script type="text/javascript" src="js/sh/shCore.js"></script>
     <script type="text/javascript" src="js/sh/shBrushJava.js"></script>
-    <link type="text/css" rel="stylesheet" href="css/sh/shCoreDefault.css"/>
-    <script type="text/javascript">SyntaxHighlighter.all();</script>
+    <link type="text/css" rel="stylesheet" href="css/sh/shCore.css"/>
+    <link type="text/css" rel="stylesheet" href="css/sh/shThemeDefault.css"/>
+    <script type="text/javascript">
+        SyntaxHighlighter.config.clipboardSwf = 'js/sh/clipboard.swf';
+        SyntaxHighlighter.all();
+    </script>
 
 </head>
 
