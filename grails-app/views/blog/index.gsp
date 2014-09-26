@@ -1,3 +1,6 @@
+<head>
+    <meta name="layout" content="common"/>
+</head>
 <body>
 <div id="content-wrap">
     <div class="row">

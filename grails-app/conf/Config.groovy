@@ -117,4 +117,3 @@ log4j.main = {
 }
 
 grails.app.context = '/'
-grails.sitemesh.default.layout = 'common'
