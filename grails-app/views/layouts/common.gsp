@@ -13,24 +13,24 @@
 
     <!-- CSS
     ================================================== -->
-    <link rel="stylesheet" href="css/default.css">
-    <link rel="stylesheet" href="css/layout.css">
-    <link rel="stylesheet" href="css/media-queries.css">
+    <link rel="stylesheet" href="/css/default.css">
+    <link rel="stylesheet" href="/css/layout.css">
+    <link rel="stylesheet" href="/css/media-queries.css">
 
     <!-- Script
    ================================================== -->
-    <script src="js/modernizr.js"></script>
+    <script src="/js/modernizr.js"></script>
 
     <!-- Favicons
     ================================================== -->
-    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="shortcut icon" href="/favicon.ico">
 
-    <script type="text/javascript" src="js/sh/shCore.js"></script>
-    <script type="text/javascript" src="js/sh/shBrushJava.js"></script>
-    <link type="text/css" rel="stylesheet" href="css/sh/shCore.css"/>
-    <link type="text/css" rel="stylesheet" href="css/sh/shThemeDefault.css"/>
+    <script type="text/javascript" src="/js/sh/shCore.js"></script>
+    <script type="text/javascript" src="/js/sh/shBrushJava.js"></script>
+    <link type="text/css" rel="stylesheet" href="/css/sh/shCore.css"/>
+    <link type="text/css" rel="stylesheet" href="/css/sh/shThemeDefault.css"/>
     <script type="text/javascript">
-        SyntaxHighlighter.config.clipboardSwf = 'js/sh/clipboard.swf';
+        SyntaxHighlighter.config.clipboardSwf = '/js/sh/clipboard.swf';
         SyntaxHighlighter.all();
     </script>
 
@@ -46,7 +46,7 @@
 
         <div class="header-content twelve columns">
 
-            <h1 id="logo-text"><a href="index.html" title="">It's full of code</a></h1>
+            <h1 id="logo-text"><a href="/" title="">It's full of code</a></h1>
 
         </div>
 
@@ -84,9 +84,9 @@
 <!-- Java Script
    ================================================== -->
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-<script>window.jQuery || document.write('<script src="js/jquery-1.10.2.min.js"><\/script>')</script>
-<script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"></script>
-<script src="js/main.js"></script>
+<script>window.jQuery || document.write('<script src="/js/jquery-1.10.2.min.js"><\/script>')</script>
+<script type="text/javascript" src="/js/jquery-migrate-1.2.1.min.js"></script>
+<script src="/js/main.js"></script>
 
 </body>
 

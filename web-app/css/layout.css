@@ -54,6 +54,12 @@ header .header-content {
 	border-bottom: 1px dashed #E8E8E8;
 	position: relative;	
 }
+
+.post-snippet {
+    border-bottom: 1px dashed #E8E8E8;
+    margin-bottom: 15px;
+}
+
 /* For high-res devices */
 @media
 (-webkit-min-device-pixel-ratio: 2),

@@ -7,8 +7,9 @@ class UrlMappings {
             }
         }
 
-        "/"         (controller: "Blog", action: "index")
-        "/tc"       (controller: "Tc", action: "index")
+        "/"                       (controller: "Home", action: "posts")
+        "/blog/$id/$slug"         (controller: "Blog", action: "show")
+        "/tc"                     (controller: "Tc", action: "index")
 
         "500"(view: '/error')
     }

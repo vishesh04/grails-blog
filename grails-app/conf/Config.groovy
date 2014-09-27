@@ -117,3 +117,4 @@ log4j.main = {
 }
 
 grails.app.context = '/'
+grails.plugin.databasemigration.updateOnStart = true
