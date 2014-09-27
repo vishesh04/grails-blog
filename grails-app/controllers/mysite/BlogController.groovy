@@ -10,13 +10,24 @@ class BlogController {
         [blogPost: blogPost]
     }
 
-    def editor() { }
+    def editor() {
+        if(params.id) {
+          [blogPost: BlogPost.get(params.id)]
+        }
+    }
 
     def save() {
-        def blogPost = new BlogPost()
+        def blogPost
+        if (params.id) {
+           blogPost = BlogPost.get(params.id)
+        } else {
+            blogPost = new BlogPost()
+        }
         blogPost.title = params.title
         blogPost.htmlContent = params.htmlContent
         blogPost.save(flush: true)
-        render(view: 'editor', model: [blogPost: blogPost])
+        redirect(action: 'editor', params: [id: blogPost.id])
     }
+
+    def about() {}
 }

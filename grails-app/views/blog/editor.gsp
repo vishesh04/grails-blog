@@ -26,7 +26,7 @@
 </head>
 
 <body>
-    <form action="/Blog/save" method="post">
+    <form action="/Blog/save/${blogPost?.id}" method="post">
         <input type="text" name="title" placeholder="Title" id="title" value="${blogPost?.title}"/>
         <textarea name="htmlContent">${blogPost?.htmlContent}</textarea>
         <input type="submit" value="Submit">

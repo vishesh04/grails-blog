@@ -19,6 +19,7 @@
 
     <!-- Script
    ================================================== -->
+    <script src="/js/jquery-1.10.2.min.js"></script>
     <script src="/js/modernizr.js"></script>
 
     <!-- Favicons
@@ -26,7 +27,14 @@
     <link rel="shortcut icon" href="/favicon.ico">
 
     <script type="text/javascript" src="/js/sh/shCore.js"></script>
+    <script type="text/javascript" src="/js/sh/shBrushGroovy.js"></script>
     <script type="text/javascript" src="/js/sh/shBrushJava.js"></script>
+    <script type="text/javascript" src="/js/sh/shBrushXml.js"></script>
+    <script type="text/javascript" src="/js/sh/shBrushJScript.js"></script>
+    <script type="text/javascript" src="/js/sh/shBrushPython.js"></script>
+    <script type="text/javascript" src="/js/sh/shBrushPlain.js"></script>
+    <script type="text/javascript" src="/js/sh/shBrushVb.js"></script>
+    <script type="text/javascript" src="/js/sh/shBrushRuby.js"></script>
     <link type="text/css" rel="stylesheet" href="/css/sh/shCore.css"/>
     <link type="text/css" rel="stylesheet" href="/css/sh/shThemeDefault.css"/>
     <script type="text/javascript">
@@ -60,9 +68,9 @@
         <div class="row">
 
             <ul id="nav" class="nav">
-                <li class="current"><a href="/">Home</a></li>
-                <li><a href="/">Projects</a></li>
-                <li><a href="/">About</a></li>
+                <li id="home" class="current"><a href="/">Home</a></li>
+                <li id="projects"><a href="/">Projects</a></li>
+                <li id="about"><a href="/Blog/about">About</a></li>
             </ul> <!-- end #nav -->
 
         </div>
