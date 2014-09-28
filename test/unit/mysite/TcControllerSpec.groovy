@@ -1,5 +1,6 @@
 package mysite
 
+import content.TcController
 import grails.test.mixin.TestFor
 import spock.lang.Specification
 

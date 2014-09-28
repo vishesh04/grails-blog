@@ -69,7 +69,7 @@
 
             <ul id="nav" class="nav">
                 <li id="home" class="current"><a href="/">Home</a></li>
-                <li id="projects"><a href="/">Projects</a></li>
+                <li id="projects"><a href="/projects">Projects</a></li>
                 <li id="about"><a href="/Blog/about">About</a></li>
             </ul> <!-- end #nav -->
 

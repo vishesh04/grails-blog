@@ -1,4 +1,4 @@
-package mysite
+package content
 
 import grails.converters.JSON
 import groovyx.net.http.RESTClient

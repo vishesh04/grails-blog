@@ -1,6 +1,7 @@
-package mysite
+package content
 
 import content.BlogPost
+import mysite.Utils
 
 class HomeController {
 
@@ -11,7 +12,11 @@ class HomeController {
         posts.each {
             def postLink = "/post/$it.id/${Utils.getUrlSlug(it.title)}"
             it.title = "<a href='$postLink'>$it.title</a>"
-            it.htmlContent = it.htmlContent.substring(0,310)+"<a href=$postLink>...Continue reading</a>"
+            def length = it.htmlContent.size()
+            if (length > 310) {
+                length = 310
+            }
+            it.htmlContent = it.htmlContent.substring(0,length)+"<a href=$postLink>...Continue reading</a>"
         }
         [posts: posts]
     }

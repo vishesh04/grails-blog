@@ -1,4 +1,4 @@
-package mysite
+package content
 
 import content.BlogPost
 
