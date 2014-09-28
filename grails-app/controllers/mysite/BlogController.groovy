@@ -4,6 +4,8 @@ import content.BlogPost
 
 class BlogController {
 
+    static scaffold = BlogPost
+
     def show() {
         def id = params.id
         def blogPost = BlogPost.get(id)
