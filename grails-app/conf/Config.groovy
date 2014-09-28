@@ -118,3 +118,16 @@ log4j.main = {
 
 grails.app.context = '/'
 grails.plugin.databasemigration.updateOnStart = true
+grails.plugin.databasemigration.updateOnStartFileNames = ['changelog.groovy']
+
+// Assets
+grails {
+    assets {
+
+            grails.assets.minifyCss = false
+            grails.assets.uglifyCss = false
+            grails.assets.minifyJs = false
+            grails.assets.uglifyJs = false
+
+    }
+}
