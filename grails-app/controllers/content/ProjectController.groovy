@@ -70,7 +70,7 @@ class ProjectController {
     }
 
     def projects() {
-        def projects = Project.findAll()
+        def projects = Project.findAllByPublished(true)
         projects.each {
             if (it.tcChallengeId) {
                 it.title = "<a target='_blank' href='$it.url'>$it.title</a>"

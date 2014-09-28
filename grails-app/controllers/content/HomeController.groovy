@@ -7,7 +7,7 @@ class HomeController {
 
     def posts() {
         //list first 5 posts' snippet, with pagination for other posts
-        def posts = BlogPost.findAll()
+        def posts = BlogPost.findAllByPublished(true)
         posts.sort{-it.postOrder}
         posts.each {
             def postLink = "/post/$it.id/${Utils.getUrlSlug(it.title)}"
