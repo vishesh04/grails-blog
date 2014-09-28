@@ -21,7 +21,9 @@
                         ${raw(project.title)}
                     </h2>
                     <p>
-                        ${raw(project.description)}
+                    <strong>Platform:</strong>&nbsp;&nbsp;&nbsp;${raw(project.platforms.join(", "))}<br>
+                    <strong>Technologies:</strong>&nbsp;&nbsp;&nbsp;${raw(project.technologies.join(", "))}<br>
+                    <strong>Description:</strong>&nbsp;&nbsp;&nbsp;${raw(project.description)}
                     </p>
                 </div>
             </g:each>
