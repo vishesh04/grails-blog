@@ -3,8 +3,8 @@ dataSource {
     driverClassName = "org.postgresql.Driver"
     dialect = org.hibernate.dialect.PostgreSQL9Dialect
 
-    //uri = new URI("postgres://eltropy:swhad0o9@localhost:5432/eltropydb")
-    uri = new URI(System.env.DATABASE_URL)
+    uri = new URI("postgres://eltropy:swhad0o9@localhost:5432/sitedb")
+    //uri = new URI(System.env.DATABASE_URL)
     url = "jdbc:postgresql://" + uri.host + ":" + uri.port + uri.path
 
     username = uri.userInfo.split(":")[0]
