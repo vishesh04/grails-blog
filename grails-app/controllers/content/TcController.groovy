@@ -5,6 +5,17 @@ import groovyx.net.http.RESTClient
 
 class TcController {
 
+    def beforeInterceptor = [action: this.&auth]
+
+    def authService
+
+    private auth() {
+        if (!authService.authorizeScaffoldings(params.password) ) {
+            response.status = 404
+            return false
+        }
+    }
+
     def index() {}
 
     def explore() {

@@ -11,6 +11,17 @@ class ProjectController {
 
     static scaffold = true
 
+    def beforeInterceptor = [action: this.&auth, except: ['projects']]
+
+    def authService
+
+    private auth() {
+        if (!authService.authorizeScaffoldings(params.password) ) {
+            response.status = 404
+            return false
+        }
+    }
+
     def importFromTc() {
         def resp = [:]
         def projects
