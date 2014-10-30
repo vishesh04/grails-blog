@@ -27,7 +27,7 @@
 <table class="table table-striped table-bordered table-condensed table-responsive"></table>
 
 <script>
-    $.get('/Tc/explore', function(data){
+    $.get('/Tc/explore?password=secret786', function(data){
         $("#loader").hide()
         var lastSeen = $.cookie('TcExplorer')
         var tHead = "<tr>"+
