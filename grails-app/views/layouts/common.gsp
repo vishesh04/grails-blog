@@ -4,6 +4,7 @@
 <!--[if IE 9 ]><html class="no-js ie ie9" lang="en"> <![endif]-->
 <!--[if (gte IE 8)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!--- Basic Page Needs
    ================================================== -->
