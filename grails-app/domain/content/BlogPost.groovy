@@ -24,4 +24,13 @@ class BlogPost {
         postOrder()
         htmlContent display: false
     }
+
+    def beforeInsert() {
+        def maxPlanOrder = BlogPost.createCriteria().get {
+            projections {
+                max "postOrder"
+            }
+        } as Integer
+        this.postOrder = maxPlanOrder + 1
+    }
 }

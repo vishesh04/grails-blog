@@ -7,6 +7,8 @@ class Project {
     String tcChallengeId
     String description
     boolean published = true
+    boolean availableToAll = false
+    Integer projectOrder
 
     static hasMany = [
             technologies: String,
@@ -26,5 +28,16 @@ class Project {
     static mapping = {
         description type: 'text'
         published defaultValue: true
+        availableToAll defaultValue: false
+        projectOrder defaultValue:'0'
+    }
+
+    def beforeInsert() {
+        def maxProjectOrder = Project.createCriteria().get {
+            projections {
+                max "projectOrder"
+            }
+        } as Integer
+        this.projectOrder = maxProjectOrder + 1
     }
 }

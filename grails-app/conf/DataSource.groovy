@@ -2,14 +2,9 @@ dataSource {
     pooled = true
     driverClassName = "org.postgresql.Driver"
     dialect = org.hibernate.dialect.PostgreSQL9Dialect
-
-    uri = new URI("postgres://eltropy:swhad0o9@localhost:5432/sitedb")
-    //uri = new URI(System.env.DATABASE_URL)
-    url = "jdbc:postgresql://" + uri.host + ":" + uri.port + uri.path
-
-    username = uri.userInfo.split(":")[0]
-    password = uri.userInfo.split(":")[1]
-
+    url = "jdbc:postgresql://localhost:5432/sitedb"
+    username = ""
+    password = ""
     dbCreate = "" // one of 'create', 'create-drop', 'update', 'validate', ''
 }
 hibernate {

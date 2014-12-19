@@ -7,4 +7,6 @@ databaseChangeLog = {
 	include file: 'create-table-project.groovy'
 
 	include file: 'add-published-to-content.groovy'
+
+	include file: 'add-project-order.groovy'
 }

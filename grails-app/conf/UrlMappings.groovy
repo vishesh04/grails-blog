@@ -12,6 +12,7 @@ class UrlMappings {
         "/post/$id/$slug"         (controller: "Blog", action: "show")
         "/tc"                     (controller: "Tc", action: "index")
         "/projects"               (controller: "Project", action: "projects")
+        "/projects/all"           (controller: "Project", action: "allProjects")
 
         "500"(view: '/error')
     }
