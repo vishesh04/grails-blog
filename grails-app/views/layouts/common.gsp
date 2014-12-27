@@ -80,16 +80,6 @@
 
 </header> <!-- Header End -->
 <g:layoutBody/>
-<footer>
-
-    <div class="row">
-        <p class="copyright">Template by <a title="Styleshout" href="http://www.styleshout.com/">Styleshout</a>.</p>
-
-    </div> <!-- End row -->
-
-    <div id="go-top"><a class="smoothscroll" title="Back to Top" href="#top"><i class="fa fa-chevron-up"></i></a></div>
-
-</footer> <!-- End Footer-->
 <!-- Java Script
    ================================================== -->
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>

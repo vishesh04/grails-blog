@@ -22,7 +22,7 @@
 
 body { 
 	background: #F6F5F5;
-	border-top: 6px solid #9FCC7F; 
+	/*border-top: 6px solid #9FCC7F; */
 }
 .page { 
 	padding-bottom: 18px;
@@ -123,7 +123,7 @@ header p#intro {
 
    float: left;
    position: absolute;
-   top: 6px;
+   top: 0px;
    left: 0;
 }
 
@@ -606,8 +606,8 @@ ol.commentlist {
 /* ------------------------------------------------------------------ */
 
 footer {	
-   padding-top: 36px;
-   margin-bottom: 42px;
+   /*padding-top: 36px;*/
+   /*margin-bottom: 42px;*/
    font-size: 13px;
    line-height: 24px;
    position: relative; 
@@ -687,7 +687,7 @@ footer .photostream li a img {
 /* copyright */
 footer .copyright {
    margin: 0;
-   padding: 24px 18px 6px 18px;
+   padding: 10px 18px 0px 18px;
    clear: both; 
    text-align: center;
     
