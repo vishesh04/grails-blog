@@ -1,12 +1,15 @@
-// locations to search for config files that get merged into the main config;
-// config files can be ConfigSlurper scripts, Java properties files, or classes
-// in the classpath in ConfigSlurper format
-
-grails.config.locations = ["file:${userHome}/.grails/${appName}-config.groovy"]
-
-// if (System.properties["${appName}.config.location"]) {
-//    grails.config.locations << "file:" + System.properties["${appName}.config.location"]
-// }
+// Load external config
+def ENV_NAME = "MYSITE_CONFIG"
+if(!grails.config.locations || !(grails.config.locations instanceof List)) {
+    grails.config.locations = []
+}
+def configLocation = System.getenv(ENV_NAME) ?: System.getProperty(ENV_NAME)
+if(configLocation) {
+    println "Including configuration file: " + configLocation;
+    grails.config.locations << "file:" + configLocation
+} else {
+    println "No external configuration file defined."
+}
 
 grails.project.groupId = appName // change this to alter the default package name and Maven publishing destination
 
