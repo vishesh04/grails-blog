@@ -59,7 +59,7 @@
                 tech+=mVal;
             });
             row+="<td>"+val.challengeType+"</td>"
-            row+="<td><a target='_blank' href='http://www.topcoder.com/challenge-details/"+val.challengeId+"'>"+val.challengeName+"</a><br><br>"+tech+"</td>"
+            row+="<td><a target='_blank' href='http://www.topcoder.com/challenge-details/"+val.challengeId+"?type=develop&lc='>"+val.challengeName+"</a><br><br>"+tech+"</td>"
             row+="<td> Started: "+registrationStartDate+"<br> Register: "+registrationEndDate+"<br> Submit: "+submissionEndDate+"</td>"
             row+="<td> Total: "+val.totalPrize+"<br> 1st: "+val.firstPlacePrize/**+"<br>Dr pts. "+val.digitalRunPoints**/+"</td>"
             row+="<td>"+val.numSubmissions+"</td>"
