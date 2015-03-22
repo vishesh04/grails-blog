@@ -6,7 +6,7 @@ package content
 class BlogPost {
     String title;
     String htmlContent
-    Integer postOrder
+    Integer postOrder = 0
     boolean published = true
 
     static mapping = {

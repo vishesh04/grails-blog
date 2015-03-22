@@ -19,7 +19,7 @@ class ProjectController {
     def authService
 
     private auth() {
-        if (!authService.authorizeScaffoldings(params.password) ) {
+        if (!session.loggedIn) {
             response.status = 404
             return false
         }

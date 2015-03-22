@@ -11,7 +11,7 @@ class BlogController {
     def authService
 
     private auth() {
-        if (!authService.authorizeScaffoldings(params.password) ) {
+        if (!session.loggedIn ) {
             response.status = 404
             return false
         }
@@ -38,7 +38,7 @@ class BlogController {
         }
         blogPost.title = params.title
         blogPost.htmlContent = params.htmlContent
-        blogPost.save(flush: true)
+        blogPost.save(flush: true, failOnError: true)
         redirect(action: 'editor', params: [id: blogPost.id])
     }
 
