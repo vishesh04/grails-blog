@@ -20,7 +20,9 @@ class BlogController {
     def show() {
         def id = params.id
         def blogPost = BlogPost.get(id)
-        [blogPost: blogPost]
+        if (blogPost.published || session.loggedIn) {
+            [blogPost: blogPost]
+        }
     }
 
     def editor() {

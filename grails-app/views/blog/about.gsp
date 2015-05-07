@@ -20,7 +20,7 @@
                     About me
                 </h2>
                 <p style="margin-bottom: 10px">
-                    I am Vishesh from India. I love coding and learning new technologies.I have been building softwares for more than 5 years now and I have 2 years of professional experience in making web-apps. I have experience in web development, building on cloud platforms like salesforce,google app engine. I love to make mashup applications by leveraging different apis. I am an active blogger and I blog about my projects and my learnings on this site.
+                    I am Vishesh from India. I love coding and learning new technologies.I have been building softwares for more than 5 years now and I have 2 years of professional experience in making web-apps. I have experience in web development, building on cloud platforms like salesforce,google app engine. I love to make mashup applications by leveraging different apis. I blog about my projects and my learnings on this site.
                 <div class="row">
                     <div class="five columns">
                         <strong>Email:</strong>&nbsp;&nbsp;&nbsp;<a href="mailTo:v@visheshsinghal.com">v@visheshsinghal.com</a><br>
@@ -41,7 +41,7 @@
                 </p>
             </section>
         </div>
-        <div id="sidebar" class="three columns">
+        <div id="sidebar" class="three columns" style="margin-top: 50px">
             <img src="/images/vishesh.jpg" />
         </div>
      </div>
