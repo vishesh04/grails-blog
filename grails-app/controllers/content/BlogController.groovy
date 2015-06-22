@@ -6,7 +6,7 @@ class BlogController {
 
     static scaffold = BlogPost
 
-    def beforeInterceptor = [action: this.&auth, except: ['show', 'about']]
+    def beforeInterceptor = [action: this.&auth, except: ['show', 'about', 'filesutra']]
 
     def authService
 
@@ -45,4 +45,6 @@ class BlogController {
     }
 
     def about() {}
+
+    def filesutra() {}
 }
