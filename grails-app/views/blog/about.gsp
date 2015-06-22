@@ -22,20 +22,21 @@
                 <p style="margin-bottom: 10px">
                     I am Vishesh from India. I love coding and learning new technologies.I have been building softwares for more than 5 years now and I have 2 years of professional experience in making web-apps. I have experience in web development, building on cloud platforms like salesforce,google app engine. I love to make mashup applications by leveraging different apis. I blog about my projects and my learnings on this site.
                 <div class="row">
-                    <div class="five columns">
+                    <div class="eight columns">
                         <strong>Email:</strong>&nbsp;&nbsp;&nbsp;<a href="mailTo:v@visheshsinghal.com">v@visheshsinghal.com</a><br>
                     </div>
-                    <div class="seven columns">
-                        <strong>LinkedIn:</strong>&nbsp;<a href="https://in.linkedin.com/in/visheshsinghal">https://in.linkedin.com/in/visheshsinghal</a><br>
+                    <div class="four columns">
+                        <strong>Github:</strong>&nbsp;<a href="https://github.com/vishesh04?tab=repositories">vishesh04</a>
                     </div>
+
                 </div>
 
                 <div class="row">
-                    <div class="five columns">
-                        <strong>Github:</strong>&nbsp;<a href="https://github.com/vishesh04?tab=repositories">vishesh04</a>
+                    <div class="eight columns">
+                        <strong>LinkedIn:</strong>&nbsp;<a href="https://in.linkedin.com/in/visheshsinghal">https://in.linkedin.com/in/visheshsinghal</a><br>
                     </div>
-                    <div class="seven columns">
-                        <strong>Resume:&nbsp;&nbsp;&nbsp;</strong>&nbsp;<a href="/resume-vishesh-singhal.pdf" download="resume-vishesh-singhal.pdf">Download</a>
+                    <div class="four columns">
+                        <strong>Resume:</strong>&nbsp;<a href="/resume-vishesh-singhal.pdf" download="resume-vishesh-singhal.pdf">Download</a>
                     </div>
                 </div>
                 </p>
