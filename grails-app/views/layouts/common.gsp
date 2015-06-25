@@ -43,6 +43,13 @@
         SyntaxHighlighter.all();
     </script>
 
+  <style>
+    .syntaxhighlighter table {
+      table-layout: fixed;
+      width: 100% !important;
+    }
+
+  </style>
 </head>
 
 <body>

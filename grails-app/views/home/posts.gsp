@@ -15,6 +15,12 @@
 <div id="content-wrap">
     <div class="row">
         <div id="main" class="nine columns">
+            <div class="post-snippet">
+                <h2><a href="/blog/filesutra">Filesutra - Easy Imports from cloud storage</a></h2>
+                <p>
+                    Filesutra is an opensource tool to quickly implement the file import from popular cloud storage providers. Filesutra  currently supports Google Drive, Microsoft OneDrive, Box and Dropbox...<a href="/blog/filesutra">Continue reading</a>
+                </p>
+            </div>
             <g:each var="post" in="${posts}">
                 <div class="post-snippet">
                     <h2>

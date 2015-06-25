@@ -14,7 +14,7 @@
         </h2>
 
         <p>
-          Filesutra is a tool to quickly implement the file import from popular cloud storage providers. Filesutra  currently supports Google Drive, Microsoft OneDrive, Box and Dropbox. <br/><br/>
+          Filesutra is an opensource tool to quickly implement the file import from popular cloud storage providers. Filesutra  currently supports Google Drive, Microsoft OneDrive, Box and Dropbox. <br/><br/>
           To use filesutra, add following script to your html page -
         <pre class="brush: javascript;">&lt;script src="http://filesutra.com/js/filesutra.js"&gt;&lt;/script&gt;</pre>
         Then add following code to click handler of import button -
@@ -25,7 +25,7 @@
             /** sample response
             {
               "fileName": "sample.pdf",
-              "downloadUrl": "",
+              "downloadUrl": "http://filesutra.com/download/teGhzSfIp4zJLW9",
               "size": 12345
             }
             **/
@@ -33,7 +33,9 @@
             });
           });
         </pre>
-        Above example assumes that jquery is already inclued in the page. Please checkout the demo by clicking the 'Import File from Cloud' button in the right.
+        Above example assumes that jquery is already inclued in the page. Please checkout the demo by clicking the 'Import File from Cloud' button in the right.<br />
+
+        Filesutra is an opensource project. Code is available on <a href="https://github.com/vishesh04/Filesutra">Github</a>
       </p>
       </section>
     </div>
