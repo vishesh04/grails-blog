@@ -14,6 +14,11 @@ class UrlMappings {
         "/projects"               (controller: "Project", action: "projects")
         "/projects/all"           (controller: "Project", action: "allProjects")
 
+        "/jitsi/login"            (controller: "Demo", action: "jitsiLogin")
+        "/jitsi/logout"           (controller: "Demo", action: "jitsiLogout")
+        "/jitsi/stats"            (controller: "Demo", action: "jitsiStats")
+        "/api/jitsi/stats"        (controller: "Demo", action: "jitsiStatsAPI")
+
         "500"(view: '/error')
     }
 }
