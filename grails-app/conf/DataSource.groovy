@@ -2,7 +2,7 @@ dataSource {
     pooled = true
     driverClassName = "org.postgresql.Driver"
     dialect = org.hibernate.dialect.PostgreSQL9Dialect
-    url = "jdbc:postgresql://localhost:5432/sitedb"
+    url = "jdbc:postgresql://localhost:5432/blogdb"
     dbCreate = "" // one of 'create', 'create-drop', 'update', 'validate', ''
 }
 hibernate {
