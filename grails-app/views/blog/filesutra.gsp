@@ -140,7 +140,7 @@
       $("#folderTableBody").append(
               "<tr style='text-align: center'>" +
                 "<td>" + fileRequest.name + "</td>" +
-                "<td><a href='" + fileRequest.url + "'>" + fileRequest.url +"</td>" +
+                "<td><a href='" + fileRequest.uploadUrl + "'>" + fileRequest.uploadUrl +"</td>" +
               "</tr>"
             );
       
