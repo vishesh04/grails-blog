@@ -23,7 +23,7 @@
                     I am Vishesh from India. I love coding and learning new technologies.I have been building softwares for more than 8 years now and I have 6 years of professional experience in making web-apps. I have experience in web development, building on cloud platforms like salesforce,google app engine. I love to make mashup applications by leveraging different apis. I blog about my projects and my learnings on this site.
                 <div class="row">
                     <div class="eight columns">
-                        <strong>Email:</strong>&nbsp;&nbsp;&nbsp;<a href="mailTo:v@visheshsinghal.com">v@visheshsinghal.com</a><br>
+                        <strong>Email:</strong>&nbsp;&nbsp;&nbsp;<a href="mailTo:v@visheshsinghal.com">hi@vishe.sh</a><br>
                     </div>
                     <div class="four columns">
                         <strong>Github:</strong>&nbsp;<a href="https://github.com/vishesh04?tab=repositories">vishesh04</a>
